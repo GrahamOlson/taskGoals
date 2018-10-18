@@ -1,0 +1,7 @@
+{
+  "name": "fu_life_is_easy",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
