@@ -5,12 +5,6 @@ import { Task } from '../../models/Task';
 
 
 
-// unsused at the momment
-interface Goal {
-  title: string;
-  description: string;
-  tasks: Task[];
-}
 
 @Component({
   selector: 'page-home',
@@ -22,12 +16,14 @@ export class HomePage {
 
   tasks: Task[] = [
     {
+      id: '',
       title: "my first task",
       content: "please let this work",
       complete: true,
       difficulty: Difficulty.Easy,
     },
     {
+      id: '',
       title: "this is another task",
       content: "format ion card to look nice and add data structure for goals",
       complete: false,
